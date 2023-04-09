@@ -1,7 +1,9 @@
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     font-family: 'Roboto';
     color: #324950;
+    padding:0;
+    margin: 0;
 }
 .container {
     max-width: 1920px;
@@ -65,5 +67,15 @@ body {
     width: 499px;
     height:26px;
     margin-right: auto;
+}
+.NavigationItem {
+    color: #324950;
+}
+a {
+    color: #324950;
+}
+a:hover {
+    color: #324950;
+    text-decoration: none;
 }
 /*  */
