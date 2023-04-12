@@ -1,0 +1,84 @@
+body {
+    /* overflow-x: hidden; */
+    font-family: 'Roboto';
+    color: #324950;
+    padding:0;
+    margin: 0;
+}
+.container {
+    max-width: 1920px;
+    padding: 0 0;
+    margin: 0 auto;
+}
+.header {
+    width: 1920px;
+    height: 850px;
+}
+.banner {
+    position: absolute;
+    width: 1920px;
+    height: 850px;
+}
+.head {
+    position: absolute;
+    margin: 20px auto;
+    width: 1130px;
+    height: 113px;
+    left: 388px;
+    right: 405px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 226px;
+    height: 113px;
+}
+.san{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.search {
+    width: 350px;
+    height: 29px;
+    border-bottom: solid 1px black;
+    background: rgba(0,0,0,0);
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+
+}
+.SearchInput{
+    background: transparent;
+    border: 0;
+}
+.ico_search {
+    margin: 3px 0;
+    width: 18px;
+    height: 18px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-shadow: 0 2px 20px;
+    width: 499px;
+    height:26px;
+    margin-right: auto;
+}
+.NavigationItem {
+    color: #324950;
+}
+a {
+    color: #324950;
+}
+a:hover {
+    color: #324950;
+    text-decoration: none;
+}
+a.BottomLink {
+    color: white;
+}
+/*  */
