@@ -1,0 +1,48 @@
+.FooterTop {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D3F45;
+}
+.FooterListItem {
+    color: #FFFFFF;
+    margin-right: 45px;
+}
+.FooterBlock {
+    display: flex;
+    justify-content: space-between;
+}
+.FooterList {
+    margin-left: 400px;
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    width: 724px;
+    height: 23px;
+}
+.FooterListSoc {
+    display:flex;
+    list-style-type: none;
+    margin-right: 400px;
+}
+.footer {
+    width: 1920px;
+    height: 76px;
+}
+.FooterListSocItems {
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.FooterBottom {
+    width: 1920px;
+    height: 51px;
+    background-color: #324950;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    font-size: 14px;
+    color: #B9B9B9;
+    margin: 0;
+    padding: 0;
+}
